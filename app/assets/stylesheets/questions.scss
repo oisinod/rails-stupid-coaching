@@ -1,0 +1,37 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$gray: #F4F4F4;
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap');
+
+body {
+  background: $gray; // Using this variable
+  font-family: 'Montserrat';
+
+}
+
+.card{
+  margin: 10px 0px;
+  width: 50%;
+
+  border-left: 10px solid rgb(145, 142, 142);
+}
+
+.card-text {
+  margin: 20px;
+
+}
+
+.card-text h3 {
+  font-style: italic;
+}
+
+.answer {
+  background-color: #ffffe1;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(46, 115, 172);
+  font-weight: bold;
+}
